@@ -1,0 +1,29 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Тестовое задание</title>
+</head>
+<style>
+  .search {
+    margin-bottom: 5px;
+  }
+  .editor {
+    height: 100px;
+    overflow: auto;
+  }
+  body > .search, body > .editor {
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+  }
+</style>
+<body>
+  <input id="search" type="text" class="search" placeholder="Search for...">
+  <div id="editor" contenteditable="true" class="editor">
+    Текст в котором будет осуществляться поиск
+  </div>
+</body>
+<script src="select.js"></script>
+</html>
