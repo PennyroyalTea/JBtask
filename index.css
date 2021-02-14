@@ -16,10 +16,15 @@
     height: 100px;
     overflow: auto;
 }
-body > .search, body > .editor {
+.description {
+    color: #555;
+}
+body > .search, body > .editor, body > .description {
     width: 300px;
     border: solid 1px black;
     border-radius: 5px;
     padding: 5px;
 }
+
+
 
