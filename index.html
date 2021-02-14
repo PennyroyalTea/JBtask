@@ -3,23 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Тестовое задание</title>
+  <link rel="stylesheet" href="index.css">
 </head>
-<style>
-  .search {
-    margin-bottom: 5px;
-  }
-  .editor {
-    height: 100px;
-    overflow: auto;
-  }
-  body > .search, body > .editor {
-    width: 300px;
-    border: solid 1px black;
-    border-radius: 5px;
-    padding: 5px;
-  }
-</style>
 <body>
+  <canvas id="selection" class="selection"></canvas>
   <input id="search" type="text" class="search" placeholder="Search for...">
   <div id="editor" contenteditable="true" class="editor">
     Текст в котором будет осуществляться поиск

@@ -1,0 +1,25 @@
+.selection {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    pointer-events: none;
+}
+
+.search {
+    margin-bottom: 5px;
+}
+.editor {
+    height: 100px;
+    overflow: auto;
+}
+body > .search, body > .editor {
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
