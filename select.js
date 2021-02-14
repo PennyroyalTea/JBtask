@@ -41,6 +41,7 @@ function selectEntries() {
     drawSelections(rects);
 }
 
+window.addEventListener('resize', selectEntries);
 
-
-search.oninput = editor.oninput = selectEntries;
+search.addEventListener('input', selectEntries);
+editor.addEventListener('input', selectEntries);
